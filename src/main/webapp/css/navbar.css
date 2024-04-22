@@ -36,8 +36,17 @@
 .list-items>ul>li{
     font-size: 20px;
     margin-left: 20px;
+    transition: ease-in 0.2s;
 }
+
+.list-items>ul>li:hover{
+    font-size: 20px;
+    margin-left: 20px;
+    transform: scale(1.1);
+}
+
 
 .list-items>ul>li>a{
     text-decoration: none;
+    color: black;
 }

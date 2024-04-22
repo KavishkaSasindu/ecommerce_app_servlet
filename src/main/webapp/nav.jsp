@@ -19,10 +19,11 @@
             </div>
             <div class="list-items">
                 <ul>
-                    <li><a href="logIn.jsp">Home</a></li>
+                    <li><a href="index.jsp">Home</a></li>
                     <li>Products</li>
                     <li>Services</li>
                     <li>About</li>
+                    <%--in here changed the conditional state to when login display login --%>
                     <li><a href="logIn.jsp">LogIn</a></li>
                 </ul>
             </div>
